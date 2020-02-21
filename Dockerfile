@@ -9,7 +9,7 @@ RUN apt-get -y update
 RUN apt-get install -y nodejs
 
 RUN apt-get install -y npm
-
+#RUN yum install git -y
 #RUN ln -s /usr/bin/nodejs /usr/bin/node........;;;;;
 
 RUN npm install -g http-server
