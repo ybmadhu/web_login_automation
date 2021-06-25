@@ -1,4 +1,4 @@
-@Library("jmsdevops@master") _
+@Library("jmsdevops@main") _
 
 pushDockerHub(
 projectName: 'webloginjmsapp'
