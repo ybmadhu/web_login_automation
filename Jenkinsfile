@@ -1,5 +1,5 @@
 @Library("jmsdevops@main") _
 
-pushDockerHub(
+pushEcrRepo(
 ecrRepoName: 'webloginjmsapp'
 )
